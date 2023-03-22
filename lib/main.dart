@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: _title,
       theme: ThemeData(
-        primarySwatch: Colors.red,
+        primarySwatch: Colors.green,
       ),
       home: MyHomePage(),
     );
@@ -41,7 +41,7 @@ class _MyHomePageState extends State<MyHomePage> {
           children: [
             const UserAccountsDrawerHeader(
               // <-- SEE HERE
-              decoration: BoxDecoration(color: const Color(0xffff0000)),
+              decoration: BoxDecoration(color: const Color(0xff00ff55)),
               accountName: Text(
                 "Joshua Rosales",
                 style: TextStyle(
